@@ -3,11 +3,11 @@
     <div class="content">
       <header>
         <nav>
-          <h1>Gerenciamento de clientes</h1>
+          <h1>Gerenciamento de usuários</h1>
         </nav>
       </header>
       <section class="sectionTable">
-        <div><h1>Clientes</h1></div>
+        <div><h1>Usuários</h1></div>
         <div>
           <button class="createUser" v-on:click="createModal = true">
             Criar novo

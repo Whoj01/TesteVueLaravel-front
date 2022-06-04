@@ -42,14 +42,14 @@
 
     <div class="modal-wrapper change" v-if="editModal.show">
       <div class="modal">
-        <h2>Editar cliente</h2>
-        <p>Tem certeza que deseja editar esse cliente?</p>
+        <h2>Editar usuário</h2>
+        <p>Tem certeza que deseja editar esse usuário?</p>
 
         <form @submit.prevent="editUser()">
-          <label class="sr-only" for-id="name">Nome do usuario</label>
+          <label class="sr-only" for-id="name">Nome do usuário</label>
           <input type="text" id="name" placeholder="Nome" v-model="edit_name" />
 
-          <label class="sr-only" for-name="email">Email do usuario</label>
+          <label class="sr-only" for-name="email">Email do usuário</label>
           <input
             type="email"
             name="email"
@@ -67,8 +67,8 @@
 
     <div class="modal-wrapper excluir" v-if="deleteModal.show">
       <div class="modal">
-        <h2>Excluir cliente</h2>
-        <p>Tem certeza que você deseja excluir este cliente?</p>
+        <h2>Excluir usuário</h2>
+        <p>Tem certeza que você deseja excluir este usuário?</p>
 
         <form @submit.prevent="deleteUser()">
           <label class="sr-only" for-name="password"
@@ -91,10 +91,10 @@
 
     <div class="modal-wrapper create" v-if="createModal">
       <div class="modal">
-        <h2>Criar cliente</h2>
+        <h2>Criar usuário</h2>
 
         <form @submit.prevent="submit()">
-          <label class="sr-only" for-name="name_create">Nome do usuario</label>
+          <label class="sr-only" for-name="name_create">Nome do usuário</label>
           <input
             type="text"
             name="name_create"

@@ -1,19 +1,23 @@
 # projetotestevue
 
-## Project setup
-```
-npm install
-```
+## Como rodar o projeto
+ Clonar o projeto 
+ ``` 
+ git clone https://github.com/Whoj01/TesteVueLaravel-front
+ ```
+ Entrar na pasta do projeto
+ ``` 
+ cd TesteVueLaravel-front
+ ```
+ Instalar as dependências
+  ``` 
+ npm install 
+ ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+ Iniciar o servidor do projeto
+  ``` 
+  npm run serve
+ ```
+ 
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
